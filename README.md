@@ -40,9 +40,11 @@ provides an easy-to-use interface for running the model on your own images.
 
 ## Usage
 
-1. Open the terminal and go to the root of this directory and run the project using the following command.
+1. Open the terminal and jump to the directory where the main.py is then run the following command.
     ```bash
     fastapi dev main.py
     ```
 2. Then boom the api is ready to use into your applications. Just dont forget to send an image when you hit the api-endpoint.
 3. A sample webpage is there in the repository in "Basic_Html_Page" directory.
+
+## Thank you 
