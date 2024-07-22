@@ -21,9 +21,11 @@ provides an easy-to-use interface for running the model on your own images.
     git clone https://github.com/01Sainath/Object-Detector-using-Grounding-DINO.git
     ```
 
-3. Install all the dependencies specified in the requirements.txt file
+3. Install all the dependencies specified in the requirements.txt file, for example
    ```bash
-    pip install -r requiremnets.txt
+    pip install torch
+    pip install torchvision
+    etc
     ```
 4. Install fastapi
     ```bash
