@@ -14,22 +14,23 @@ provides an easy-to-use interface for running the model on your own images.
 
 ## Installations
 
-1. Create a python project and clone this repository inside that:
+1. Python version = Python 3.12.4
+2. Create a python project and clone this repository inside that:
 
     ```bash
     git clone https://github.com/01Sainath/Object-Detector-using-Grounding-DINO.git
     ```
 
-2. Install all the dependencies specified in the requirements.txt file
+3. Install all the dependencies specified in the requirements.txt file
    ```bash
     pip install -r requiremnets.txt
     ```
-3. Install fastapi
+4. Install fastapi
     ```bash
     pip install fastapi
     ```
-4. Create a directory named weights inside the cloned repository
-5. Paste the following url in browser and "groundingdino_swint_ogc.pth" this
+5. Create a directory named weights inside the cloned repository
+6. Paste the following url in browser and "groundingdino_swint_ogc.pth" this
    file will be downloaded put that file in weights directory.
    ```bash
     https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
